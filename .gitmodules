@@ -1,3 +1,6 @@
 [submodule "can_bus_shield"]
 	path = can_bus_shield
 	url = git@github.com:KimBP/CAN_BUS_Shield.git
+[submodule "vhf_blue"]
+	path = vhf_blue
+	url = git@github.com:KimBP/VHFtoN2k-blue.git
