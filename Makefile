@@ -37,7 +37,7 @@ INCLUDE_DIRS =\
 
 CPPUTEST_WARNINGFLAGS = -Wall -Werror -Wswitch-default 
 CPPUTEST_WARNINGFLAGS += -Wconversion -Wswitch-enum 
-CPPUTEST_WARNINGFLAGS += -wno-c++14-compat
+CPPUTEST_WARNINGFLAGS += -Wno-c++14-compat
 
 include $(CPPUTEST_HOME)/build/MakefileWorker.mk
 
