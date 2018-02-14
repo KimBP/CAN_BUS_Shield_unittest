@@ -14,6 +14,7 @@ endif
 CPP_PLATFORM = Gcc
 
 SRC_DIRS = \
+    can_bus_shield \
     src\
     src/*
 
