@@ -1,0 +1,3 @@
+[submodule "can_bus_shield"]
+	path = can_bus_shield
+	url = git@github.com:KimBP/CAN_BUS_Shield.git
