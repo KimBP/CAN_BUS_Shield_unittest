@@ -31,14 +31,16 @@ MOCKS_SRC_DIRS = \
 INCLUDE_DIRS =\
   .\
   include \
-  include/* \
+  include/util \
   $(CPPUTEST_HOME)/include/ \
   $(CPPUTEST_HOME)/include/Platforms/Gcc\
-  mocks
+  mocks \
+  vhf_blue/include \
+  vhf_blue/src
 
 CPPUTEST_WARNINGFLAGS = -Wall -Werror -Wswitch-default 
 CPPUTEST_WARNINGFLAGS += -Wconversion -Wswitch-enum 
-CPPUTEST_WARNINGFLAGS += -Wno-c++14-compat
+CPPUTEST_CXXFLAGS += -Wno-c++14-compat
 
 include $(CPPUTEST_HOME)/build/MakefileWorker.mk
 
